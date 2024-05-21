@@ -1,0 +1,68 @@
+
+/* Estilos del formulario */
+.Form__Trainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form__container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+  }
+  
+  .Form__input {
+    width: 60%;
+    height: 2em;
+    border-radius: 0.5rem 0 0 0.5rem;
+    border: 1px solid rgb(255, 0, 0);
+    box-shadow: 0.1rem 0.1rem 0.5rem rgb(255, 0, 0);
+    padding: 0 10px;
+  }
+  
+  .Form__btn {
+    width: 5rem;
+    height: 2em;
+    border: 1px solid rgb(255, 0, 0);
+    box-shadow: 0.1rem 0.1rem 0.5rem rgb(255, 0, 0);
+    border-radius: 0 0.5rem 0.5rem 0;
+    background-color: rgba(198, 17, 17, 0.941);
+    text-shadow: 0.05em 0.1em 0.15em rgb(90, 3, 3);
+    color: rgb(40, 2, 2);
+    cursor: pointer;
+  }
+  
+  .Form__btn:hover {
+    filter: brightness(1.4);
+  }
+  
+
+/* Media query para móviles */
+@media only screen and (max-width: 767px) {
+    .Form__Trainer {
+        padding: 0.2em;
+    }
+    
+    .Form__input {
+        width: 80%;
+    }
+}
+
+/* Media query para monitores */
+@media only screen and (min-width: 768px) {
+    .Form__Trainer {
+        justify-content: center;
+        transform: scale(1.5);
+    }
+    
+    .Form__input {
+        border-radius: 0.5rem 0 0 0.5rem;
+    }
+
+    .Form__btn {
+        border-radius: 0 0.5rem 0.5rem 0;
+    }
+}
+

@@ -1,0 +1,18 @@
+ .movements-s {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 0.5em;
+ }
+  
+  
+  
+  .movements-list {
+    width: 80%;
+    text-align: center;
+    list-style-type: none;
+    background-color: rgba(232, 232, 232, 0.639);
+    box-shadow: 0.01em 0.01em 0.2em rgba(0, 0, 0, 0.443);
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    border-radius: 0.5em;
+  }
+  

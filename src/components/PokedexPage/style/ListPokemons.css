@@ -1,0 +1,47 @@
+.List__Card {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.gap-page{
+    gap: 0.1em;
+}
+
+.gap-page li {
+    cursor: pointer;
+    border-radius: 100px;
+    padding: 0.5em;
+    border: 0.5px solid red;
+    text-shadow: 0.1rem 0.01rem 0.2rem rgb(0, 0, 0);
+    color: rgb(240, 248, 255);
+    background-color: rgba(171, 0, 0, 0.589);
+     &:hover {
+        filter: brightness(2);
+        transform: scale(1.02);
+        transition: transform 0.3s ease;
+        box-shadow: 0.01rem 0.01rem 0.5rem red;
+     }
+}
+
+.gap-page .active-page {
+    background-color: rgb(88, 14, 62);
+}
+
+.btn_p {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-shadow: 0.1rem 0.01rem 0.2rem rgb(0, 0, 0);
+    color: rgb(240, 248, 255);
+    background-color: rgb(165, 42, 42);
+    border: none;
+    &:hover {
+        filter: brightness(2);
+        transform: scale(1.02);
+        transition: transform 0.3s ease;
+        box-shadow: 0.01rem 0.01rem 0.2rem red;
+     }
+}
